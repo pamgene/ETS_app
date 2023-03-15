@@ -1,23 +1,23 @@
 {
   "kind": "Workflow",
-  "id": "c845ceade32c4423bc616ff5ab469882",
+  "id": "5fdacf2e254f508d0bd669ac03ebcaf4",
   "isDeleted": false,
-  "rev": "5-c829a42cb4888dc5082e95d13614a112",
+  "rev": "7-4c3772b9b789b1063814507a226545f3",
   "description": "Combines multiple exposure times from PamGene PS12 images.",
   "name": "ETS_app",
-  "createdBy": "ginberg",
+  "createdBy": "MKostadima",
   "acl": {
     "kind": "Acl",
-    "owner": "pamgene",
+    "owner": "Test_NewTemplates",
     "aces": []
   },
   "createdDate": {
     "kind": "Date",
-    "value": "2022-02-03T08:57:32.799827Z"
+    "value": "2023-03-14T12:06:06.910488Z"
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2022-02-14T08:03:15.680173Z"
+    "value": "2023-03-14T12:12:14.049376Z"
   },
   "urls": [
     {
@@ -36,16 +36,31 @@
       "kind": "Pair",
       "key": "copyOf",
       "value": "f8a10d0f634bec18e16e16305e002f60"
+    },
+    {
+      "kind": "Pair",
+      "key": "_upgrade_",
+      "value": "0.10.0"
+    },
+    {
+      "kind": "Pair",
+      "key": "_upgrade_reset_",
+      "value": "0.10.0"
+    },
+    {
+      "kind": "Pair",
+      "key": "_upgrade_old_task_",
+      "value": "0.10.15"
     }
   ],
   "url": {
     "kind": "Url",
     "uri": "https://github.com/tercen/ETS_app"
   },
-  "version": "0.0.4",
+  "version": "0.0.5",
   "authors": [],
   "isPublic": false,
-  "projectId": "c845ceade32c4423bc616ff5ab22f158",
+  "projectId": "5fdacf2e254f508d0bd669ac039f912e",
   "folderId": "",
   "links": [
     {
@@ -279,7 +294,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -311,13 +326,13 @@
           "operatorRef": {
             "kind": "OperatorRef",
             "name": "ETS",
-            "version": "0.0.2",
-            "operatorId": "c845ceade32c4423bc616ff5ab189d39",
+            "version": "0.3.0",
+            "operatorId": "5fdacf2e254f508d0bd669ac03ec9523",
             "operatorKind": "ROperator",
             "propertyValues": [],
             "url": {
               "kind": "Url",
-              "uri": "https://github.com/tercen/ETS_operator"
+              "uri": "https://github.com/pamgene/ETS_operator"
             }
           },
           "environment": []
@@ -350,7 +365,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "taskId": ""
       },
@@ -540,7 +555,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -572,13 +587,13 @@
           "operatorRef": {
             "kind": "OperatorRef",
             "name": "S100",
-            "version": "0.0.2",
-            "operatorId": "c845ceade32c4423bc616ff5ab18b165",
+            "version": "0.2.0",
+            "operatorId": "5fdacf2e254f508d0bd669ac03ebf636",
             "operatorKind": "ROperator",
             "propertyValues": [],
             "url": {
               "kind": "Url",
-              "uri": "https://github.com/tercen/S100_operator"
+              "uri": "https://github.com/pamgene/S100_operator"
             }
           },
           "environment": []
@@ -611,7 +626,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "taskId": ""
       },
@@ -645,7 +660,7 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 107.8358154296875,
+          "x": 107.83589172363281,
           "y": 55.0
         },
         "topLeft": {
@@ -814,7 +829,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -887,7 +902,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "taskId": ""
       },
@@ -1181,7 +1196,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -1252,7 +1267,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "taskId": ""
       },
@@ -1536,7 +1551,7 @@
   ],
   "offset": {
     "kind": "Point",
-    "x": 35.0,
-    "y": -12.0
+    "x": 99.0,
+    "y": 77.0
   }
 }
